@@ -1,5 +1,10 @@
 name: Daves Demo
 description: This will print Hello World for now!
+inputs:
+  name:
+    required: true
+    description: The name of the person to greet.
+    default: 'Anonymous'
 runs:
   using: node16
   main: src/index.js
