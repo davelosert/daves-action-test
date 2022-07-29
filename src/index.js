@@ -1,2 +1,1 @@
-console.log(JSON.stringify(process.argv));
-console.log(`Hello ${process.env.name}!`);
+console.log(`Hello ${process.env.INPUT_NAME}!`);
